@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>写成风 · 个人博客</title>
+  <meta name="description" content="一个关于思考、技术与生活的个人博客。" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="site-wrap">
+    <header class="site-header">
+      <a class="brand" href="#/" data-nav>
+        <span class="brand-mark">写</span>
+        <span class="brand-text">写成风</span>
+      </a>
+      <nav class="site-nav">
+        <a href="#/" data-nav>首页</a>
+        <a href="#/about" data-nav>关于</a>
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="切换主题">◐</button>
+      </nav>
+    </header>
+    <main id="app" class="app"></main>
+    <footer class="site-footer">
+      <span>© <span id="year"></span> 写成风</span>
+      <span class="footer-dot">·</span>
+      <span>用文字记录，慢慢来</span>
+    </footer>
+  </div>
+  <script src="posts.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
